@@ -8,14 +8,25 @@
   },
   "author": "Facundo Sardiña",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "dotenv": "^17.2.2",
+    "dotenv": "^17.2.3",
     "nodemon": "^3.1.10",
     "pg": "^8.16.3",
     "sequelize": "^6.37.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facusardi/AE_Backend.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/facusardi/AE_Backend/issues"
+  },
+  "homepage": "https://github.com/facusardi/AE_Backend#readme",
+  "description": ""
 }

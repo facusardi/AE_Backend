@@ -19,11 +19,11 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY
 );
 
-// Ruta de prueba
+{/*{// Ruta de prueba
 app.get("/", (req, res) => {
   res.json({ message: "Backend con Supabase funcionando 🚀" });
-});
-app.get("/Aviso_Empleos", async (req, res) => {
+});*/}
+app.get("/", async (req, res) => {
   const { data, error } = await supabase.from("Aviso_Empleos").select("*");
 
   if (error) return res.status(500).json({ error: error.message });
